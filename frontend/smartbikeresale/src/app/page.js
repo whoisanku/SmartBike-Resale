@@ -25,10 +25,10 @@ export default function Page() {
     kms_driven_min: '',
     kms_driven_max: '',
     owner: '',
-    servicing: '',
-    engine_condition: '',
-    physical_condition: '',
-    tyre_condition: '',
+    servicing: 'regular',
+    engine_condition: 'open',
+    physical_condition: 'fresh',
+    tyre_condition: 'good',
     price_min: '',
     price_max: '',
   });
@@ -278,7 +278,7 @@ export default function Page() {
         {/* Right-hand side: My Listings and Profile */}
         <nav className="flex items-center space-x-2 md:space-x-6 w-[185px] md:w-[20rem] mr-[-1rem]">
           <a href="/price-prediction" className="text-gray-700 hover:text-orange-600 font-medium transition-colors duration-200 w-full text-[10px] md:text-xl">
-            predict & list
+            Predict & List
           </a>
 
 

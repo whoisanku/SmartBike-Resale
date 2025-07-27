@@ -246,7 +246,7 @@ export default function Page() {
         {/* Right-hand side: My Listings and Profile */}
         <nav className="flex items-center space-x-2 md:space-x-6 w-[185px] md:w-[22rem] mr-[-1rem]">
           <a href="/price-prediction" className="text-gray-700 hover:text-orange-600 font-medium transition-colors duration-200 w-full text-[10px] md:text-xl">
-            predict & list
+            Predict & List
           </a>
 
 

@@ -5,7 +5,7 @@ import { useParams } from 'next/navigation';
 
 import BrandInput from '@/components/BrandInput';
 
-import BikeNameInput from '@/components/BikeNameImput';
+import BikeNameInput from '@/components/BikeNameInput';
 
 // A simple Modal component for user feedback (instead of alert/confirm)
 const Modal = ({ message, onClose }) => {
@@ -47,10 +47,10 @@ export default function Page() {
     cc: '',
     kms_driven: '',
     owner: '',
-    servicing: '',
-    engine_condition: '',
-    physical_condition: '',
-    tyre_condition: '',
+    servicing: 'regular',
+    engine_condition: 'open',
+    physical_condition: 'fresh',
+    tyre_condition: 'good',
     price: '',
   });
   // Store initial data to compare for changes
@@ -322,7 +322,7 @@ export default function Page() {
         {/* Right-hand side: My Listings and Profile */}
         <nav className="flex items-center space-x-2 md:space-x-6 w-[185px] md:w-[22rem] mr-[-1rem]">
           <a href="/price-prediction" className="text-gray-700 hover:text-orange-600 font-medium transition-colors duration-200 w-full text-[10px] md:text-xl">
-            predict & list
+            Predict & List
           </a>
 
 

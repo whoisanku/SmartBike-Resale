@@ -1,5 +1,5 @@
 import BrandInput from './BrandInput';
-import BikeNameInput from './BikeNameImput';
+import BikeNameInput from './BikeNameInput';
 
 export default function FilterForm({
   filters,
@@ -117,8 +117,8 @@ export default function FilterForm({
           onChange={handleFilterChange}
           className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-400"
         >
-          <option value="regular">regular</option>
-          <option value="irregular">irregular</option>
+          <option value="regular">Regular</option>
+          <option value="irregular">Irregular</option>
         </select>
       </div>
 
@@ -132,8 +132,8 @@ export default function FilterForm({
           onChange={handleFilterChange}
           className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-400"
         >
-          <option value="open">open</option>
-          <option value="seal">seal</option>
+          <option value="open">Open</option>
+          <option value="seal">Seal</option>
         </select>
       </div>
 
@@ -147,10 +147,10 @@ export default function FilterForm({
           onChange={handleFilterChange}
           className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-400"
         >
-          <option value="fresh">fresh</option>
-          <option value="like new">like new</option>
-          <option value="old">old</option>
-          <option value="very old">very old</option>
+          <option value="fresh">Fresh</option>
+          <option value="like new">Like New</option>
+          <option value="old">Old</option>
+          <option value="very old">Very Old</option>
         </select>
       </div>
 
@@ -164,9 +164,9 @@ export default function FilterForm({
           onChange={handleFilterChange}
           className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-400"
         >
-          <option value="good">good</option>
-          <option value="new">new</option>
-          <option value="old">old</option>
+          <option value="good">Good</option>
+          <option value="new">New</option>
+          <option value="old">Old</option>
         </select>
       </div>
 

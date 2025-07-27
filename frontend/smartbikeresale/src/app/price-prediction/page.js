@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import BrandInput from '@/components/BrandInput';
-import BikeNameInput from '@/components/BikeNameImput';
+import BikeNameInput from '@/components/BikeNameInput';
 
 // This is the main React component for the bike price prediction page.
 const PricePrediction = () => {
@@ -18,10 +18,10 @@ const PricePrediction = () => {
         cc:'',
         kms_driven:'',
         owner:'',
-        servicing:'',
-        engine_condition:'',
-        physical_condition:'',
-        tyre_condition:'',
+        servicing:'regular',
+        engine_condition:'open',
+        physical_condition:'fresh',
+        tyre_condition:'good',
         description: '', 
   });
 
